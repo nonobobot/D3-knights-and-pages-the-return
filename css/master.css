@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+.bonjour {
+  min-height: 100vh;
+  background: #99d3ff url('images/premier.jpg') bottom center no-repeat;
+  background-size: cover;
+  font-family: 'Righteous', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.bonjour a {
+  color: #fff;
+  font-size: 8em;
+  text-decoration: none;
+  margin-top : 10%;
+}
+
+.go {
+ min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+  background: #99d3ff url('images/regle-du-jeuu.png') bottom right no-repeat;
+  background-size: cover;
+  font-family: 'Righteous', cursive;
+
+}
+
+.go a {
+  color: #36B67E;
+  font-size: 4em;
+  text-decoration: none;
+}
+
+.go-back {
+  min-height: 150vh;
+  background: #99d3ff url('images/perdu.jpg') bottom right no-repeat;
+  background-size: cover;
+  font-family: 'Righteous', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.go-back a {
+  color: #282525;
+  font-size: 4em;
+  text-decoration: none;
+  margin-top : 47%;
+}
+
+.great-job {
+  min-height: 100vh;
+  background: #99d3ff url('images/fini.png') bottom center no-repeat;
+  background-size: cover;
+  font-family: 'Righteous', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.great-job a {
+  color: #F55657;
+  font-size: 4em;
+  text-decoration: none;
+  margin-top : 40%;
+}
+
+.direction-go {
+ background: url("images/fond-go.jpg") top center no-repeat;
+}
+
+.direction-goback {
+ background: url("images/fond.png") top center no-repeat;
+}
+
+.direction-back {
+  background: url("images/fond-back.jpg") top center no-repeat;
+}
+
+.view {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  background-size : cover;
+  margin-bottom : 0px;
+  align-items: flex-end;
+  }
+
+
+
+.view img{
+max-height: 10em;
+}
+
+
+.left-banc {
+border: 1px ;
+}
+
+
+
+.right-banc {
+
+}
+
+/*.
+.direction-back {
+    position: relative;
+    border: 2px solid blue;
+    min-height: 50vh;
+}
+
+direction-back::before {
+  content: url('images/left.png');
+  border: 2px solid red;
+  display: block;
+  width: 80px;
+  height: 40px;
+}
+
+.direction-back::before {
+  content: url('images/right.png');
+  img { max-width:40px;
+  max-height:40px;}
+  {position: absolute;
+  top : -20%;
+  left : 50%;
+  width: 10%;
+} */
+
+.couple {
+min-height: 12.5em;
+display: flex;
+}
+
+
+.choices {
+  border : 6px solid green;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.win {
+  position: absolute;
+  top : 15%;
+  left : 50%;
+  width: 40%;
+  transform: translateX(-50%);
+}
+
+.win img {
+  width: 100%;
+}
